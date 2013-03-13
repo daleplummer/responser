@@ -1,0 +1,26 @@
+#   responser_smpt_settings.txt      #
+#   a settings file for responser.pl #
+#   Settings for SMTP server         #
+#                                    # 
+######################################
+
+#################
+# SMTP Server Host
+# Put your SMTP host
+SMTPHost = 'd.smtp.vanderbilt.edu'
+
+#################
+# MAIL Recipient
+Recipient = '6154000402@messaging.sprintpcs.com'
+#Recipient = 'dale.plummer@vanderbilt.edu'
+
+#################
+# Reverse mail (Who sent this e-mail)
+# !! IMPORTANT!! Domain of the return mail MUST EXIST
+Reverse = 'dale.plummer@vanderbilt.edu'
+
+#################
+# END 
+# Do not remove that digit!!!
+1;
+

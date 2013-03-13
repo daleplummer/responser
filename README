@@ -1,0 +1,16 @@
+#
+#  responser (original author unknown)
+#
+#  Checks servers by looking at a server web site.  If the site
+#  responds then the server is assumed to be up.  If the site
+#  is down then email is sent.  There are two (!) config files
+#  used to specify what sites to monitor and where to send email
+#  (see "Program Settings" below.)
+#
+#  Schedule this with a cron job, e.g.
+#  $ crontab -e
+#     55 * * * * /home/dalep/responser/responser.pl
+#  This will run responser.pl at 55 minutes past the hour for every
+#  hour of every day.
+#
+
